@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700&display=swap');
+
+html,body{
+font-family: 'Work Sans', sans-serif;
+color:#000d1e;
+font-weight: 400;
+}
+
+h1{display:none;}
+
+h2{
+	font-weight: 300;
+	margin-bottom: 3rem;
+	color:rgba(245, 81, 49, .75);
+}
+
+h2 span{
+	color:#4f5d70;
+	display:block;
+	font-size:75%;	
+}
+
+h3,h4,h5,h6{
+	font-weight: 500;
+}
+
+
+a{
+	color:rgba(245, 81, 49, 1);
+}
+
+a:hover{
+	color:rgba(81, 81, 81, 1);	
+}
+
+:hover{
+	transition:.5s ease all;
+  outline: 0;
+}
+
+
+
+header{
+ padding:3rem 1rem 5rem 1rem;
+
+}
+
+section{
+	padding:3rem 1rem;
+}
+
+section#cierre{
+	padding:3rem 1rem 6rem 1rem;
+}
+
+
+@media screen and (orientation:landscape){
+	.masthead {
+  		height: 100vh;
+  		min-height: 500px;
+	}
+}
+
+.navbar-nav{
+	font-weight: 400;
+	font-size:0.9rem;	
+
+}
+
+p.lead{
+	font-size:1.42rem;
+	font-weight: 300;
+	color:#4f5d70;
+}
+
+p.lead strong{
+	font-weight:500;
+	color:#4f5d70;
+	text-decoration: none;
+}
+
+
+.bg-p-dark{
+	background:#253445;
+}
+
+.navbar-brand{font-weight: 700;}
+
+
+.navbar-toggler{
+	position:fixed;
+	bottom:1rem;
+	right:2rem;
+	width:auto;
+	height:auto;
+	padding:1.5rem;
+	border-radius: 50% 50%;
+	color:rgba(255, 255, 255, 1);
+	background:rgba(245, 81, 49, 1);
+	margin:0;
+}
+
+.navbar-toggler:focus {outline:0;}
+
+
+ul.navbar-nav li:last-child{
+	margin-bottom:1.75rem;
+}
+
+
+
+.card, .card-img{
+	border-radius: 0;
+}
+
+.card:first-child{
+	color:#4f5d70;	
+	font-weight: 400;
+	border:none;
+	font-size:1.25rem;
+	padding:0.1rem 1rem 1rem 0.1rem;
+}
+
+.card:first-child a{
+	color:#3d4c60;
+}
+
+.card-body{
+	padding:1rem 1rem 0 1rem;
+	line-height: 1.1;
+}
